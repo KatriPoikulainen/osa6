@@ -31,6 +31,8 @@ const reducer = (state = initialState, action) => {
         : { ...anecdote, votes: anecdote.votes + 1 }
       )
     }
+    case 'NEW_ANECDOTE':
+    return state.concat(action.data)
     default:
       return state
   }
@@ -41,5 +43,14 @@ const reducer = (state = initialState, action) => {
       data: { id }
     }
 }
+  export const createAnecdote = content => {
+    return {
+      type: 'NEW_ANECDOTE',
+      data: {
+        content,
+        id: getId(),
+      votes: 0 }
+    }
+  }
 
 export default reducer
