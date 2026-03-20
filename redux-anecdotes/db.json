@@ -23,12 +23,12 @@
     {
       "content": "Premature optimization is the root of all evil.",
       "id": "25170",
-      "votes": 0
+      "votes": 1
     },
     {
       "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
       "id": "98312",
-      "votes": 0
+      "votes": 5
     },
     {
       "content": "backend testi anecdootti",
@@ -37,8 +37,23 @@
     },
     {
       "content": "testi backend toimii",
-      "votes": 0,
+      "votes": 1,
       "id": "C31IrEb"
+    },
+    {
+      "content": "Redux tekee tilanhallinnasta selkeämpää",
+      "votes": 1,
+      "id": "SMVHb6z"
+    },
+    {
+      "content": "kurssi oli siina",
+      "votes": 1,
+      "id": "bQuqcjD"
+    },
+    {
+      "content": "ou jee",
+      "votes": 0,
+      "id": "S9FBQTx"
     }
   ]
 }
